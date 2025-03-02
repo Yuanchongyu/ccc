@@ -2,10 +2,10 @@
 import sys
 
 def update_product_codes():
-    N = int(sys.stdin.readline().strip())
+    N = int(input())
 
     for _ in range(N):
-        code = sys.stdin.readline().strip()
+        code = input()
         letters = []
         num = ""
         total = 0

@@ -1,12 +1,12 @@
 import sys
 
 def donut_shop():
-    D = int(sys.stdin.readline().strip()) 
-    E = int(sys.stdin.readline().strip())  
+    D = int(input()) 
+    E = int(input())  
 
     for _ in range(E):
-        operation = sys.stdin.readline().strip() 
-        Q = int(sys.stdin.readline().strip())  
+        operation = input()
+        Q = int(input())  
 
         if operation == "+":
             D += Q  

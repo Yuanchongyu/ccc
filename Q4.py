@@ -1,10 +1,10 @@
 import sys
 
 def max_consecutive_sunshine():
-    N = int(sys.stdin.readline().strip())
+    N = int(input())
     weather_data = []
     for _ in range(N):
-        weather_data.append(sys.stdin.readline().strip())
+        weather_data.append(input())
     max_sun = 0
     max_possible_sun = 0
     current_sun = 0

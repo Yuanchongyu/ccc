@@ -1,9 +1,9 @@
 import sys
 
 def roller_coaster_ride():
-    N = int(sys.stdin.readline().strip())  
-    C = int(sys.stdin.readline().strip())
-    P = int(sys.stdin.readline().strip())
+    N = int(input())  
+    C = int(input())
+    P = int(input())
     max_capacity = C * P  
 
     if N <= max_capacity:
